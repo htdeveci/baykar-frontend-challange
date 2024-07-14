@@ -1,0 +1,53 @@
+.backgroundPanel {
+  background-color: #0f172a;
+}
+
+.container {
+  padding: 3rem 0;
+  height: 600px;
+}
+
+.titleRow {
+  align-items: center;
+  margin: 0rem 0.5rem 3rem;
+  padding: 0 3rem;
+}
+
+.textColor {
+  color: white;
+}
+
+.cardContainer {
+  position: absolute;
+}
+
+.signUpButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 992px) {
+  .backgroundPanel {
+    padding-bottom: 14rem;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .cardRow {
+    display: flex;
+    gap: 16rem;
+  }
+
+  .titleRow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .signUpButton {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+}

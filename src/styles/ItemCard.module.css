@@ -1,0 +1,13 @@
+.cardContainer {
+  width: 18rem;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  box-shadow: 0px 10px 30px -10px rgba(226, 232, 240, 0.4);
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}

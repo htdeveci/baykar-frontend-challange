@@ -1,0 +1,52 @@
+.image {
+  margin-right: 1.2rem;
+}
+
+.imageRow {
+  margin-top: 2rem;
+}
+
+.listCol {
+  padding-left: 3rem;
+  flex: 1;
+}
+
+.imageCol {
+  flex: 3;
+  position: relative;
+}
+
+.backFrame {
+  position: absolute;
+  width: 80%;
+}
+
+.frontFrame {
+  position: absolute;
+  width: 80%;
+  left: 6rem;
+  top: 6rem;
+}
+
+.frontUnrame {
+  position: absolute;
+  right: -1rem;
+  top: 8rem;
+}
+
+@media (max-width: 992px) {
+  .textRow {
+    text-align: center;
+  }
+
+  .imageRow {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16rem;
+    padding-right: 2rem;
+  }
+
+  .imageCol {
+    margin-top: 4rem;
+  }
+}

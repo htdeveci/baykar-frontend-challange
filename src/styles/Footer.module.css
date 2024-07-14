@@ -1,0 +1,48 @@
+.backgroundPanel {
+  background-color: #0f172a;
+  color: white;
+  padding-top: 1rem;
+}
+
+.shareIconsContainer {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.buttonsRow {
+  border-bottom: 1px solid #334155;
+  padding-bottom: 3rem;
+}
+
+.lastLowButtonsContainer {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: flex-end;
+}
+
+.copyrightRow {
+  padding-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  .backgroundPanel {
+    text-align: center;
+  }
+
+  .buttonsRow {
+    gap: 5rem;
+  }
+
+  .shareIconsContainer {
+    justify-content: center;
+  }
+
+  .copyrightRow {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .lastLowButtonsContainer {
+    justify-content: center;
+  }
+}

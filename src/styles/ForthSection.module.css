@@ -1,0 +1,37 @@
+.cardContainer {
+  margin: 3rem 0;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listIcon {
+  margin-right: 10px;
+}
+
+.cardBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+@media (max-width: 992px) {
+  .cardContainer {
+    margin: 0;
+  }
+
+  .cardBody {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .signUpDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

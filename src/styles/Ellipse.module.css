@@ -1,0 +1,19 @@
+.ellipse {
+  position: absolute;
+  cursor: pointer;
+}
+
+.tooltipContainer {
+  opacity: 1 !important;
+}
+
+.tooltipContainer * {
+  background: none;
+  width: 240px;
+}
+
+.cardContainer {
+  background-color: white;
+  margin-bottom: -2px;
+  padding: 0;
+}

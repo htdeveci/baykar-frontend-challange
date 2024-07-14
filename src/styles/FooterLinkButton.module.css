@@ -1,0 +1,29 @@
+.link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #b95921;
+}
+
+.imageButton {
+  cursor: pointer;
+}
+
+.imageButton:hover {
+  position: relative;
+  top: -3px;
+}
+
+.iconWithTitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.iconWithTitle:hover {
+  color: #b95921;
+}

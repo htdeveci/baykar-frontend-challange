@@ -1,0 +1,14 @@
+.cardContainer {
+  padding: 2rem;
+  height: 18rem;
+  width: 20rem;
+}
+
+.messageContainer {
+  padding: 0;
+}
+
+.footerContainer {
+  border: none;
+  background: none;
+}

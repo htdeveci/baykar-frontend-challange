@@ -1,0 +1,23 @@
+.titleRow {
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.arrowContainer {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.commentsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  .titleRow {
+    text-align: center;
+  }
+}

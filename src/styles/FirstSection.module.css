@@ -1,0 +1,47 @@
+.iconButton {
+  display: flex;
+  gap: 5px;
+}
+
+.icon {
+  position: relative;
+  top: 3px;
+}
+
+.sneakerImage {
+  position: relative;
+  scale: 1.4;
+  left: 10px;
+}
+.caption {
+  font-size: 3rem;
+}
+
+.textCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imageCol {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .buttonToolbar {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .imageCol {
+    scale: 0.8;
+  }
+}
